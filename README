@@ -1,0 +1,7 @@
+This is a fence driver for the Aviosys IP9258 network power switch. The
+interface is compatible with that of the Red Hat fence-agents [1].
+
+See [2] for more information.
+
+[1] http://git.fedoraproject.org/git/fence-agents.git
+[2] http://www.aviosys.com/ippower9258.htm
