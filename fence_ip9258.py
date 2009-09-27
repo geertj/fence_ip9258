@@ -167,7 +167,7 @@ try:
         reboot(opts, port)
         print 'Success: Powered OFF and scheduled power ON'
     elif command == 'status':
-        print 'Status: %s' % 'ON' if status else 'OFF'
+        print 'Status: %s' % (status and 'ON' of 'OFF')
 
 except (Error, httplib.HTTPException), exc:
     if opts.debug:
